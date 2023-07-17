@@ -3,7 +3,8 @@ import "package:flutter/material.dart";
 
 void main() {
   runApp(MaterialApp(
-    // home: Home(),
+    title: "Countries App",
+    debugShowCheckedModeBanner: false,
     initialRoute: '/',
     routes: {
       '/': (context) => const Home(),
